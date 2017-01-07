@@ -1,3 +1,8 @@
+This is Newbrick's fork from aquila
+===================================
+
+Here is the [Oficial repository](https://github.com/zsiciarz/aquila) 
+
 What is Aquila?
 ===============
 
@@ -34,6 +39,7 @@ int main()
     // calculate the FFT
     auto fft = Aquila::FftFactory::getFft(SIZE);
     Aquila::SpectrumType spectrum = fft->fft(sum.toArray());
+
 
     plot.setTitle("Spectrum");
     plot.plotSpectrum(spectrum);
